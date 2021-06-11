@@ -78,7 +78,7 @@ async def filter(client: Bot, message: Message):
         )
 
         await message.reply_text(
-                f"<b> Here is the result for {message.text}</b>",
+                f"<b> ഈ ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത് ചാനലിൽ ജോയിൻ ചെയ്ത ശേഷം താഴെ കാണുന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്ത് ഡൗണ്ലോഡ് ചെയ്യുക https://t.me/joinchat/i3_jS1HoYU1iNzRl </b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
